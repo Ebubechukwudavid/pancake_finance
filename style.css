@@ -1331,3 +1331,63 @@ scrollbar-width: none;
         font-size: 14px; 
     }
 }
+
+.button-group {
+    display: flex;
+    gap: 14px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -18%;
+}
+
+.btn-common {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.btn-primary {
+    background-color: #1FC7D4;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #3ce3ef; 
+    opacity: 0.9; 
+}
+
+.btn-secondary {
+    color: #1FC7D4;
+}
+.btn-secondary:hover {
+    color: #3ce3ef;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.icon-Arrows {
+    margin-left: 0.5rem;
+    fill: currentColor;
+}
+
+@media (max-width: 480px) {
+    .button-group {
+        display: flex;
+        gap: 14px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: -97%;
+    }
+}
